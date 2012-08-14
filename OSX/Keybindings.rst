@@ -1,22 +1,21 @@
 How to Change Home/END
 ======================
 
-Put:
-.. code:: 
+Put:::
 
-{
-    /* home */
-    "\UF729"  = "moveToBeginningOfLine:";
-    "$\UF729" = "moveToBeginningOfLineAndModifySelection:";
+    {
+        /* home */
+        "\UF729"  = "moveToBeginningOfLine:";
+        "$\UF729" = "moveToBeginningOfLineAndModifySelection:";
 
-    /* end */
-    "\UF72B"  = "moveToEndOfLine:";
-    "$\UF72B" = "moveToEndOfLineAndModifySelection:";
+        /* end */
+        "\UF72B"  = "moveToEndOfLine:";
+        "$\UF72B" = "moveToEndOfLineAndModifySelection:";
 
-    /* page up/down */
-    "\UF72C"  = "pageUp:";
-    "\UF72D"  = "pageDown:";
-}
+        /* page up/down */
+        "\UF72C"  = "pageUp:";
+        "\UF72D"  = "pageDown:";
+    }
 
 
 
