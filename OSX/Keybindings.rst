@@ -3,6 +3,7 @@ How to Change Home/END
 
 Put:
 .. code:: 
+
 {
     /* home */
     "\UF729"  = "moveToBeginningOfLine:";
